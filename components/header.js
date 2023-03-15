@@ -24,6 +24,25 @@ const header = () => {
             <a className="text-white     font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 bg-purple-600 hover:bg-purple-700  ">
               Download
             </a>
+            {/* ///////////////////////res */}
+            <button
+              type="button"
+              className=" items-center p-2 ml-1 text-sm  rounded-lg lg:hidden    text-gray-400 hover:bg-gray-700 "
+            >
+              <svg
+                className="w-6 h-6"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </button>
+            {/* //////////////////////////// */}
           </div>
           {/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
           <div className="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1 ">
