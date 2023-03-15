@@ -1,0 +1,75 @@
+/* eslint-disable @next/next/no-img-element */
+const header = () => {
+  return (
+    <header className="w-full">
+      <nav className="bg-gray-900 py-2.5">
+        <div className="flex items-center justify-between max-w-screen-xl px-4 mx-auto">
+          {/* ////////////////////////////////////////////////////////////////////////// */}
+          <a href="#" className="flex items-center">
+            <img
+              src="/logo.svg"
+              className="h-6 mr-3 sm:h-9"
+              alt="Landwind Logo"
+            />
+            <span className=" text-xl font-semibold  text-white">Landwind</span>
+          </a>
+          {/* ////////////////////////////////////////////////////////////////////////////////////////////////// */}
+          <div className="flex items-center lg:order-2">
+            <a
+              href="#"
+              className=" text-white   font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 hover:bg-gray-700  "
+            >
+              Log in
+            </a>
+            <a className="text-white     font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 bg-purple-600 hover:bg-purple-700  ">
+              Download
+            </a>
+          </div>
+          {/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+          <div className="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1 ">
+            <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+              <li>
+                <a
+                  className="py-2 pl-3 pr-4  bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0 text-white"
+                  aria-current="page"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a className="py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
+                  Company
+                </a>
+              </li>
+              <li>
+                <a className="py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
+                  Marketplace
+                </a>
+              </li>
+              <li>
+                <a className="py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
+                  Features
+                </a>
+              </li>
+              <li>
+                <a
+                  h
+                  className="py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                >
+                  Team
+                </a>
+              </li>
+              <li>
+                <a className="py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  );
+};
+
+export default header;
