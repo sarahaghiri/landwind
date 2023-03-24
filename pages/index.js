@@ -5,6 +5,7 @@ import SDescription from '../components/sdescription';
 import Quote from '../components/quote';
 import Card from '../components/card';
 import Faq from '../components/faq';
+import FreeTrial from '../components/freetrial';
 const index = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const index = () => {
       <Quote />
       <Card />
       <Faq />
+      <FreeTrial />
     </div>
   );
 };
