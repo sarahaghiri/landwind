@@ -7,10 +7,18 @@ const firstdescription = () => {
       <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
         <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
           <div className=" sm:text-lg text-gray-400">
-            <h2 className="mb-4 text-3xl font-extrabold tracking-tight  text-white">
+            <h2
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="30"
+              data-aos-duration="800"
+              data-aos-easing="ease-in-out"
+              data-aos-once="false"
+              className="mb-4 text-3xl font-extrabold tracking-tight  text-white"
+            >
               Work with tools you already use
             </h2>
-            <p className="mb-8 font-light lg:text-xl">
+            <p data-aos="fade-right" className="mb-8 font-light lg:text-xl">
               Deliver great service experiences fast - without the complexity of
               traditional ITSM solutions. Accelerate critical development work,
               eliminate toil, and deploy changes with ease.
@@ -37,7 +45,7 @@ const firstdescription = () => {
                   Continuous integration and deployment
                 </span>
               </li>
-              <li  className="flex space-x-3">
+              <li data-aos="fade-right" className="flex space-x-3">
                 <svg
                   className="flex-shrink-0 w-5 h-5  text-purple-400"
                   fill="currentColor"
@@ -54,7 +62,7 @@ const firstdescription = () => {
                   Development workflow
                 </span>
               </li>
-              <li  className="flex space-x-3">
+              <li data-aos="fade-right" className="flex space-x-3">
                 <svg
                   className="flex-shrink-0 w-5 h-5  text-purple-400"
                   fill="currentColor"
@@ -72,13 +80,13 @@ const firstdescription = () => {
                 </span>
               </li>
             </ul>
-            <p  className="mb-8 font-light lg:text-xl">
+            <p data-aos="fade-right" className="mb-8 font-light lg:text-xl">
               Deliver great service experiences fast - without the complexity of
               traditional ITSM solutions.
             </p>
           </div>
           <img
-           
+            data-aos="fade-left"
             className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
             src="feature-1.png"
             alt="dashboard feature image"
@@ -87,19 +95,24 @@ const firstdescription = () => {
 
         <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
           <img
-           
+            data-aos="fade-right"
             className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
             src="feature-2.png"
             alt="feature image 2"
           />
           <div className=" sm:text-lg text-gray-400">
             <h2
-             
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="30"
+              data-aos-duration="800"
+              data-aos-easing="ease-in-out"
+              data-aos-once="false"
               className="mb-4 text-3xl font-extrabold tracking-tight text-white"
             >
               We invest in the world’s potential
             </h2>
-            <p className="mb-8 font-light lg:text-xl">
+            <p data-aos="fade-left" className="mb-8 font-light lg:text-xl">
               Deliver great service experiences fast - without the complexity of
               traditional ITSM solutions. Accelerate critical development work,
               eliminate toil, and deploy changes with ease.
@@ -109,7 +122,7 @@ const firstdescription = () => {
               role="list"
               className="pt-8 space-y-5 border-t  my-7 border-gray-700"
             >
-              <li className="flex space-x-3">
+              <li data-aos="fade-left" className="flex space-x-3">
                 <svg
                   className="flex-shrink-0 w-5 h-5  text-purple-400"
                   fill="currentColor"
@@ -126,7 +139,7 @@ const firstdescription = () => {
                   Dynamic reports and dashboards
                 </span>
               </li>
-              <li className="flex space-x-3">
+              <li data-aos="fade-left" className="flex space-x-3">
                 <svg
                   className="flex-shrink-0 w-5 h-5  text-purple-400"
                   fill="currentColor"
@@ -143,7 +156,7 @@ const firstdescription = () => {
                   Templates for everyone
                 </span>
               </li>
-              <li  className="flex space-x-3">
+              <li data-aos="fade-left" className="flex space-x-3">
                 <svg
                   className="flex-shrink-0 w-5 h-5  text-purple-400"
                   fill="currentColor"
@@ -160,7 +173,7 @@ const firstdescription = () => {
                   Development workflow
                 </span>
               </li>
-              <li className="flex space-x-3">
+              <li data-aos="fade-left" className="flex space-x-3">
                 <svg
                   className="flex-shrink-0 w-5 h-5 text-purple-400"
                   fill="currentColor"
@@ -177,7 +190,7 @@ const firstdescription = () => {
                   Limitless business automation
                 </span>
               </li>
-              <li className="flex space-x-3">
+              <li data-aos="fade-left" className="flex space-x-3">
                 <svg
                   className="flex-shrink-0 w-5 h-5 text-purple-400"
                   fill="currentColor"
@@ -195,7 +208,7 @@ const firstdescription = () => {
                 </span>
               </li>
             </ul>
-            <p className="font-light lg:text-xl">
+            <p data-aos="fade-left" className="font-light lg:text-xl">
               Deliver great service experiences fast - without the complexity of
               traditional ITSM solutions.
             </p>
