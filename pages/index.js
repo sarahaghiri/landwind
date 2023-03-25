@@ -6,6 +6,7 @@ import Quote from '../components/quote';
 import Card from '../components/card';
 import Faq from '../components/faq';
 import FreeTrial from '../components/freetrial';
+import Footer from '../components/footer';
 const index = () => {
   return (
     <div>
@@ -17,6 +18,7 @@ const index = () => {
       <Card />
       <Faq />
       <FreeTrial />
+      <Footer />
     </div>
   );
 };
